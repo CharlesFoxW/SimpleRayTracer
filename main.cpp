@@ -1,7 +1,7 @@
 // Yihao Wang ECS 175 - Project 5 - Driver File
 #include <iostream>
 #include <fstream>
-#include <GLUT/glut.h>
+#include <GL/glut.h>
 #include <string.h>
 #include <math.h>
 #include "AntTweakBar.h"
@@ -262,7 +262,7 @@ int main(int argc, char** argv) {
 }
 
 void displayMain(void) {
-    glClearColor(0, 0, 0, 1);
+    glClearColor(0.2, 0.2, 0.2, 1);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     TwDraw();
